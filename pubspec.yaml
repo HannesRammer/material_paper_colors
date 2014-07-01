@@ -1,7 +1,7 @@
 name: material_paper_colors
 version: 0.0.1
 author: Hannes Rammer <Hannes.Rammer@gmail.com>
-description: material design paper color palette maps
-homepage: https://github.com/HannesRammer/Dartabase/tree/master/dartabase_core
+description: access material design paper color palette via map object and color range
+homepage: https://github.com/HannesRammer/material_paper_colors
 environment:
   sdk: '>=0.8.10+6 <2.0.0'
