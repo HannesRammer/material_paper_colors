@@ -1,4 +1,4 @@
-##MaterialPaperColors 0.0.2
+##MaterialPaperColors 0.1.0
 ---
 
 I wrote this package to have easy access to googles material paper background and text color palette via ranges  
@@ -11,9 +11,9 @@ as shown on http://www.google.com/design/spec/style/color.html - 30.06.2014
 ###access single color
     
       input:
-      String color = MaterialPaperColors.Red["500"];
+      String color = Red["500"];
       or
-      List color = MaterialPaperColors.RedT["500"];
+      List color = RedT["500"];
       output:
       "#e51c23"
       or
@@ -22,9 +22,9 @@ as shown on http://www.google.com/design/spec/style/color.html - 30.06.2014
 ###access color palette
 
     input:
-      List<Map<String,String>> colorPalette = MaterialPaperColors.colorPalette;
+      List<Map<String,String>> colorPalette = colorPalette;
       or
-      List<Map<String,List<String>>> colorPaletteT = MaterialPaperColors.colorPaletteT;
+      List<Map<String,List<String>>> colorPaletteT = colorPaletteT;
     output:
       [Red, Pink, Purple, DeepPurple, Indigo, Blue, LightBlue, Cyan, Teal, Green,
        LightGreen, Lime, Yellow, Amber, Orange, DeepOrange, Brown, Grey, BlueGrey]
@@ -32,8 +32,8 @@ as shown on http://www.google.com/design/spec/style/color.html - 30.06.2014
 ###get random color
 
     input:
-      String randColor = MaterialPaperColors.getRandomColor["500"];
-      List randColorT = MaterialPaperColors.getRandomColorT["500"];
+      String randColor = getRandomColor["500"];
+      List randColorT = getRandomColorT["500"];
     output:
       "#e91e63" // eg. Pink
       or 

@@ -1,5 +1,5 @@
 name: material_paper_colors
-version: 0.0.2
+version: 0.1.0
 author: Hannes Rammer <Hannes.Rammer@gmail.com>
 description: access material design paper color palette via map object and color range
 homepage: https://github.com/HannesRammer/material_paper_colors
